@@ -24,5 +24,4 @@ cv.imshow('Dilated', dilated)
 
 # Eroding
 
-eroded = cv.erode()
 cv.waitKey(0)
