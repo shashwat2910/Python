@@ -4,7 +4,6 @@ import numpy as np
 blank = np.zeros((500, 500 , 3), dtype='uint8')
 
 cv.imshow('Blank', blank)
-
 # Draw A Rectangle
 cv.rectangle(blank, (0,0), (250,250), (0,250,0), thickness=-1)
 cv.imshow('Rectangle', blank)
